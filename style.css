@@ -1,0 +1,204 @@
+/* CSS Document */
+@charset "UTF-8";
+
+body {
+	padding: 0;
+	margin: 0;
+}
+
+header {
+	background-color: #524c53;
+    width: 100%;
+    height: auto;
+	height: 80px;
+}
+
+header .container {
+	display: flex;
+	justify-content: space-between;
+	width: 960px;
+    margin: auto;
+	
+}
+
+header .site-name {
+	padding: 10px;
+}
+
+header h1 {
+	line-height: 1;
+	margin-bottom: 5px;
+    margin-top: 0px;
+}
+
+.site-name h1 a{
+	color: white;
+	text-decoration: none;
+}
+
+.site-name h1 a i {
+	padding-left: 5px;
+}
+
+.site-name p {
+	color: white;
+	line-height: 1;
+	margin-top: 0px;
+    margin-bottom: 5px;
+    margin-left: 10px;
+}
+
+header nav {
+	
+}
+
+header nav ul {
+	color: white;
+	list-style-type: none;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+header nav ul li a{
+	color: white;
+	text-decoration: none;
+	padding: 20px;
+	display: block;
+}
+
+.main-img {
+	background-image: url( "img/music-app.jpg");
+    height: 800px;
+    background-size: cover;
+    background-position: center center;
+    background-repeat: no-repeat;
+}
+
+footer {
+	background-color: #524c53;
+    height: 50px;
+    display: block;
+}
+
+footer p {
+	color: white;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    text-align: center;
+    vertical-align: middle;
+    align-items: center;
+    line-height: 50px;
+}
+
+/*========================================
+  フォーム
+========================================*/
+label{
+  display: block;
+}
+input[type="text"], input[type="number"], .form select,
+textarea {
+  margin-bottom: 15px;
+  font-size: 18px;
+  box-sizing: border-box;
+  padding: 10px;
+  width: 100%;
+  height: 60px;
+  border: none;
+  display: block;
+  border: solid 1px;
+  border-radius: 5px;
+}
+input[type="checkbox"]{
+  width: 18px;
+  height: 18px;
+  vertical-align: middle;
+  background: #f6f5f5;
+}
+input[type="number"] {
+  width: 100px;
+  text-align: left;
+}
+input[type="submit"] {
+  font-size: 14px;
+  margin: 15px 0;
+  padding: 15px 30px;
+  width: 100%;
+  border: none;
+  background: #524c53;
+  color: white;
+  border-radius: 5px;
+}
+
+select:hover,
+input[type="submit"]:hover {
+  cursor: pointer;
+}
+
+.form-container {
+  margin: 0 auto;
+	margin-top: 100px;
+    margin-bottom: 100px;
+}
+.page-1colum .form-container{
+  margin: 80px auto;
+}
+
+.form {
+  margin: 0 auto;
+  padding: 30px;
+  width: 400px;
+  border: 1px solid #524c53;
+  border-radius: 5px;
+}
+.page-logined .form{
+  border: none;
+}
+
+.form .title {
+  margin-bottom: 40px;
+  text-align: center;
+}
+.form > .area-msg{
+  padding: 0 0 15px 0;
+  color: red;
+}
+
+.form .btn-container {
+  overflow: hidden;
+}
+
+.form .btn {
+  float: right;
+}
+.form .area-drop{
+  width: 100%;
+  height: 250px;
+  background: #f6f5f4;
+  margin-bottom: 15px;
+  text-align: center;
+  line-height: 250px;
+  color: #ccc;
+}
+.form .counter-text{
+  text-align: right;
+}
+/* フォームグループ
+=================================*/
+.form-group{
+  overflow: hidden;
+  position: relative;
+}
+.form-group > input{
+  float: left;
+}
+.form-group > .option{
+  float: left;
+  position: relative;
+  top: 40px;
+  display: block;
+  padding-left: 10px;
+}

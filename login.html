@@ -1,0 +1,65 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+<title>mimikara</title>
+</head>
+<body>
+<!-- メニュー -->
+    <header>
+	<div class="container">
+		<div class="site-name">
+			<h1><a href="#">mimikara<i class="fas fa-headphones-alt"></i></a></h1>
+			<p>音楽とプログラミング</p>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="">ログイン</a></li>
+				<li><a href="">ユーザー登録</a></li>
+			</ul>
+		</nav>
+	</div>
+</header>
+
+    <!-- メインコンテンツ -->
+    <div id="contents" class="site-width">
+
+      <!-- Main -->
+      <section id="main" >
+
+       <div class="form-container">
+        
+         <form action="mypage.html" class="form">
+           <h2 class="title">ログイン</h2>
+           <div class="area-msg">
+             <!--メールアドレスまたはパスワードが違います-->
+           </div>
+           <label>
+            MAIL
+             <input type="text" name="email">
+           </label>
+           <label>
+             PASSWORD
+             <input type="text" name="pass">
+           </label>
+           <label>
+             <input type="checkbox" name="pass_save">次回ログインを省略する
+           </label>
+            <div class="btn-container">
+              <input type="submit" class="btn btn-mid" value="ログイン">
+            </div>
+            パスワードを忘れた方は<a href="passRemindSend.html">コチラ</a>
+         </form>
+       </div>
+
+      </section>
+
+    </div>
+<footer>
+	<p>Copyright &copy; mimikara</p>
+</footer>
+</body>
+</html>
